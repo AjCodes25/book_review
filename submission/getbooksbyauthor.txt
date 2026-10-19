@@ -1,0 +1,6 @@
+# Task 4: Get books by author
+cURL Command:
+curl -s "http://localhost:5000/author/Jane%20Austen"
+
+Output:
+[{"author":"Jane Austen","title":"Pride and Prejudice","reviews":{}}]

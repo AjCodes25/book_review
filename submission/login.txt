@@ -1,0 +1,6 @@
+# Task 8: Login
+cURL Command:
+curl -s -c cookies.txt -X POST http://localhost:5000/customer/login -H "Content-Type: application/json" -d "{\"username\": \"john\", \"password\": \"password123\"}"
+
+Output:
+User successfully logged in

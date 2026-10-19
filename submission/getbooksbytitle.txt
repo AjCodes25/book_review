@@ -1,0 +1,6 @@
+# Task 5: Get books by title
+cURL Command:
+curl -s "http://localhost:5000/title/Pride%20and%20Prejudice"
+
+Output:
+[{"author":"Jane Austen","title":"Pride and Prejudice","reviews":{}}]
